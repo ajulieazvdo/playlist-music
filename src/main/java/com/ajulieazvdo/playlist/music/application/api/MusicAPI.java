@@ -25,7 +25,7 @@ public interface MusicAPI {
     @ResponseStatus(code = HttpStatus.NO_CONTENT)
     void deletarUmaMusica (@PathVariable String idMusica);
 
-    @DeleteMapping(path = "/{idMusica}")
+    @PatchMapping(path = "/{idMusica}")
     @ResponseStatus(code = HttpStatus.NO_CONTENT)
     void alterarUmaMusica (@PathVariable String idMusica, @RequestBody @Valid MusicAlteraRequest musicRequest);
 }

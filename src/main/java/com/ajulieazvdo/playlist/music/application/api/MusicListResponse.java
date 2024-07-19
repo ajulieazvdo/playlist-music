@@ -1,6 +1,7 @@
 package com.ajulieazvdo.playlist.music.application.api;
 
 import com.ajulieazvdo.playlist.music.domain.Music;
+import com.ajulieazvdo.playlist.playlist.domain.Playlist;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
